@@ -11,14 +11,14 @@
 }
 .bloco1{
 	width: 22%;
-	background-color: #659AF0;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .bloco2{
 	width: 80%;	
-	background-color: #659AF0;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 }
@@ -34,28 +34,31 @@
 }
 .text{
 	width: auto;
-	height: 600px;
-	background-color: #659AF0;
+	height: auto;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	margin-top: 150px;
+	margin-bottom: 50px;
 	text-align: center;
+	color: #2e2d2d
 }
 .logo{
 	margin-top: 15px;
 }
 a:link{
+	text-decoration: none;
 	font-weight: 600;
 	font-size: 25x;
 	margin-top: 20px;
 	margin-left: 14px;
 	margin-right: 14px;
-	color:#363d54;
-	text-decoration: none;
 	font-family: 'Courier Prime', monospace;
+	color: white;
 }
 a:hover{
 	color: black;
+	font-family: 'Courier Prime', monospace;
 }
 h1{
 	font-size: 30px;
@@ -65,4 +68,14 @@ p{
 	font-size: 20px;
 	margin-top: 20px;
 	font-family: 'Courier Prime', monospace;
+}
+.duvidas{
+	background-color: #4169E1;
+}
+.links{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 25px;
+	color: #ffffff
 }

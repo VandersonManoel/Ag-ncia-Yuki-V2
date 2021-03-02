@@ -1,7 +1,7 @@
 .body{
 	display: flex;
 	flex-direction: column;
-	background-color: #659AF0;
+	background-color: white;
 	
 	
 }
@@ -21,15 +21,22 @@ p{
 	font-size: 18px;
 	font-family: 'Courier Prime', monospace;
 }
+a{
+	color: #1668b5;
+	font-size: 20px;	
+}
 a:link{
+	text-decoration: none;
 	font-weight: 600;
 	font-size: 25x;
 	margin-top: 40px;
 	margin-left: 14px;
 	margin-right: 14px;
-	color:#363d54;
-	text-decoration: none;
 	font-family: 'Courier Prime', monospace;
 }
 a:hover{
 	color: black;
+}
+.bah{
+	color: #1668b5;
+}

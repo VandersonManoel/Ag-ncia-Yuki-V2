@@ -3,33 +3,45 @@
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>Agência Yuki</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
-</head>
-<body bgcolor= "1E 90 FF"  style="font-family:verdana">
-<center>
-
-	<h1> Abertura de chamado </h1>
-	<div id="forms">
-	<form action="https://formspree.io/f/xbjpajrq" method="POST">
-	
-	<b>Nome do funcionário:</b> <input type="text" id="nome"
-	name="nome"/> <br></br>
-	
-	<b>Assunto do chamado:</b> <br></br>
-	<input type="text" id="assunto" name="assunto"/> <br></br>
-	
-	<b>Categoria do chamado:</b> <br></br>
-	<input type="radio" id="adm" name="adm"/> Administrativa <br></br>
-	<input type="radio" id="ger" name="ger"/> Gerencial <br></br>
-	<input type="radio" id="ope" name="ope"/> Operacional <br></br>
-	<input type="radio" id="out" name="out"/> Outro <br></br>
-	<b>Detalhamento do chamado:</b> <br></br>
-	<textarea name="detalhamento" rows="20" cols="50"> </textarea> <br></br>
-	<input type="reset" name="Apagar"/>
-	<input type="submit" id="btn-open" name="Abrir chamado"/>
-	</form>
-	</div>
-</center>
-<a href="home.xhtml">Voltar</a>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>	
+		<link rel="stylesheet4" type="text/css" href="stylesheet4.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+</head> 
+<body align="center">
+	<div class="w3-card-4">
+	   <div class="w3-container w3-indigo">
+		<h2>Abertura do chamado</h2>
+	   </div>
+	  <form class="w3-container" action="https://formspree.io/f/mknpvnwz" method="POST">
+		<p>      
+		<label class="w3-text-"><b>Nome do funcionário:</b></label>
+		<input class="w3-input w3-border w3-sand" name="first" type="text" /></p>
+		<p>      
+		<label class="w3-text-"><b>Assunto do chamado:</b></label>
+		<input class="w3-input w3-border w3-sand" name="last" type="text"/></p>
+	    <div class="aqui">
+	      <h2>Categoria do chamado:</h2>
+		  <p>
+		  <input class="w3-radio" type="radio" name="gender" value="Administrativa" />
+		  <label>Administrativa</label></p>
+		  <p>
+		  <input class="w3-radio" type="radio" name="gender" value="Gerencial" />
+		  <label>Operacional</label></p>
+		  <p>
+		  <input class="w3-radio" type="radio" name="gender" value="Operacional" />
+		  <label>Operacional</label></p>
+		  <p>
+		  <input class="w3-radio" type="radio" name="gender" value="Outros" />
+		  <label>Outros</label></p>
+		  <h2>Detalhamento do chamado:</h2>
+		  <p>
+		  <textarea xmlns="http://www.w3.org/1999/xhtml" name="detalhamento" rows="20" cols="50" />
+		  </p>
+		  <input class="w3-btn w3-gray" xmlns="http://www.w3.org/1999/xhtml" type="reset" name="Apagar" />
+		  <input class="w3-btn w3-indigo" xmlns="http://www.w3.org/1999/xhtml" type="submit"  name="Abrir chamado" />
+		  </div> 
+	  </form>  
+	  </div>
+   <a href="home.xhtml">Voltar</a>
 </body>
 </html>

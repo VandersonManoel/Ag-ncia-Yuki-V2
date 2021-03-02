@@ -56,7 +56,7 @@ padding: 10px;
 
 }
 body{
-	background-color: #659AF0;
+	background-color: white;
 	font-family: 'Courier Prime', monospace;
 	
 }
@@ -67,10 +67,10 @@ tr{
 	background-color: #7694c2;
 }
 #bado{
-	background-color: gray;
+	background-color: #1668b5;;
 }
 #tr1{
-	background-color: #b5bcc7;
+	background-color: #ffffff;
 }
 #direita{
 	float: right;
@@ -79,7 +79,8 @@ tr{
 	
 }
 a{
-	color: black;
+	color: #1668b5;
+	font-size: 20px;
 }
 #table1{
 	height: 70%;
@@ -93,6 +94,7 @@ a{
 	position: relative;
 	margin-top: 5%;
 	margin-right: 90%;
+	color: #2e2d2d;
 }
 #centrão{
 	text-align: center;
@@ -124,3 +126,4 @@ a:link{
 }
 a:hover{
 	color: black;
+}
